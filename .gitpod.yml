@@ -1,0 +1,6 @@
+tasks:
+  - init: pnpm install && pnpm run build
+    command: npm run start:dev
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
